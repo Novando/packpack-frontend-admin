@@ -4,6 +4,7 @@ import ManageUsers from '@/views/ManageUsers.vue'
 import Products from '@/views/Products.vue'
 import Materials from '@/views/Materials.vue'
 import ProductCustoms from '@/views/ProductCustoms.vue'
+import ManageOrders from '@/views/ManageOrders.vue'
 
 const routes = [
   {
@@ -15,6 +16,11 @@ const routes = [
     path: '/users',
     name: 'ManageUsers',
     component: ManageUsers
+  },
+  {
+    path: '/orders',
+    name: 'ManageOrders',
+    component: ManageOrders
   },
   {
     path: '/products',
